@@ -69,7 +69,7 @@ if __name__ == '__main__':
         if (rollResult['data']):
             reward = rollResult['data']['name']
         print(f"Turns left: {turnsLeft}. Rolled: {rollResult['status']['message']}. {reward}")
-        # print(rollResult)
+        
         turnsLeft -= 1
 
     print('Out of turn')
